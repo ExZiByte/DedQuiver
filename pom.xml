@@ -58,13 +58,6 @@
             <version>1.7.22</version>
         </dependency>
 
-        <!-- YAML library -->
-        <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>1.23</version>
-        </dependency>
-
         <!-- Google Simple JSON API -->
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
