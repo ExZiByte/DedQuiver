@@ -1,7 +1,7 @@
+import nestedvar.Quiver.Listeners.Miscellaneous.Ready;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.exceptions.RateLimitedException;
-import net.dv8tion.jda.api.sharding.DefaultShardManager;
 import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.api.sharding.ShardManager;
 
@@ -15,13 +15,13 @@ public class Quiver {
 
 
     public static void main(String[] args) throws RateLimitedException, InterruptedException, UnknownHostException, LoginException {
-        quiver.setToken("");
+        quiver.setToken(System.getenv("QUIVERTOKEN"));
         quiver.setStatus(OnlineStatus.DO_NOT_DISTURB);
         quiver.setActivity(Activity.watching("the loading bar fill"));
         quiver.setShardsTotal(-1);
 
         quiver.addEventListeners(
-                Ready.
+                new Ready()
         );
 
         manager = quiver.build();

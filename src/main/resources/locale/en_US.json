@@ -1,0 +1,38 @@
+{
+  "displayName": "Quiver",
+  "botHomeGuildName": "Nested Variables",
+  "joinMessages": [
+    "[member] just joined the server - glhf!",
+    "[member] just joined. Everyone, look busy!",
+    "[member] just joined. Can I get a heal?",
+    "[member] joined your party.",
+    "[member] joined. You must construct additional pylons!",
+    "Ermagherd. [member] is here!",
+    "Welcome, [member]. Stay awhile and listen.",
+    "Welcome, [member]. We were expecting you ( ͡° ͜ʖ ͡°)",
+    "Welcome, [member]. We hope you brought pizza.",
+    "Welcome [member]. Leave your weapons by the door.",
+    "A wild [member] appeared.",
+    "Swoooosh. [member] just landed.",
+    "Brace yourselves. [member] just joined the server.",
+    "[member] just joined. Hide your bananas.",
+    "[member] just arrived. Seems OP - please nerf.",
+    "[member] just slid into the server.",
+    "A [member] has spawned in the server.",
+    "Big [member] showed up!",
+    "Where’s [member]? In the server!",
+    "[member] hopped into the server. Kangaroo!!",
+    "[member] just showed up. Hold my beer.",
+    "Never gonna give [member] up, never gonna let [member] down!",
+    "It's dangerous to go alone, take [member].",
+    "It's [member]! Praise the sun!. [T]/",
+    "Ha! [member] has joined. You activated my trap card!",
+    "Hello is it [member] you're looking for?"
+  ],
+  "leaveMessages": [
+    "Good luck on your travels [member]!",
+    "[member] rode off into the sunset!",
+    "[member] left to join the crusade! DEUS VULT",
+    ""
+  ]
+}
